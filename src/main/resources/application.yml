@@ -5,11 +5,10 @@ spring:
     serialization.WRITE_DATES_AS_TIMESTAMPS: false
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/es_school
-    username: es_db_school
-    password: edusys2020
+    url: jdbc:postgresql://edusystem-database-1.clmxt4f8zcur.us-west-2.rds.amazonaws.com:5432/es_school
+    username: edusystem
+    password: password
     driver-class-name: org.postgresql.Driver
-    schema: classpath:/schema-postgres.sql
     initialization-mode: never
     platform: postgres
 
